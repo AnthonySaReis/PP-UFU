@@ -9,7 +9,6 @@ em polegadas.
 
 int main( ) {
 	float p,c;
-	float pi = 3.141592; 
 	scanf("%f", &p);
 	c = p*2.54;
 	printf("Em centimetros vale: %0.2f", c);
