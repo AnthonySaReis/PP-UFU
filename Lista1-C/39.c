@@ -13,7 +13,7 @@ int main(){
     primeiro = total * 0.46;
     segundo = total * 0.32;
     terceiro = total * 0.22;
-    printf("Primeiro: %0.2f, Segundo: %0.2f e Terceiro: %0.2f", primeiro, segundo, terceiro);
+    printf("Primeiro: %0.2f\n Segundo: %0.2f\n Terceiro: %0.2f", primeiro, segundo, terceiro);
 
     return 0;
 }
