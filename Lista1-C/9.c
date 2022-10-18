@@ -8,6 +8,7 @@ de conversão é: K = C + 273.15, sendo C a temperatura em Celsius e K a tempera
 
 int main( ) {
 	float c,k;
+	printf("Entre com o valor em graus celsius: ");
 	scanf("%f", &c);
 	k = c + 273.15;
 	printf("Em kelvin vale: %0.2f", k);
