@@ -9,6 +9,7 @@ acres.
 int main(){
     
     float a,m;
+	printf("Entre com o valor em acres: ");
 	scanf("%f", &a);
 	m = a*4048.58;
 	printf("Em metros vale: %0.2f", m);
