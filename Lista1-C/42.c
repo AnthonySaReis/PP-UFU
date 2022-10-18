@@ -9,9 +9,10 @@ de imposto sobre o salário-base.
 int main(){
 
     float valor, salario;
+	printf("Entre com o valor do salario base: ");
     scanf("%f", &valor);
     salario =valor * 1.05; //gradificação de 5%
     salario = salario - (salario * 0.07);//imposto sobre salario de 7%
-    printf("%0.2f", salario);
+    printf("valor a receber %0.2f", salario);
     return 0;
 }
