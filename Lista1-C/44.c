@@ -7,9 +7,10 @@ a escada. Calcule e mostre quantos degraus o usuário deverá subir para atingir
 int main(){
 
     float alturadoDegrau, alturaDesejada, quantosDegraus; 
+	printf("Entre com a altura do degrau e a altura desejada: ");
     scanf("%f %f", &alturadoDegrau, &alturaDesejada);
     quantosDegraus = alturaDesejada/alturadoDegrau; //para descobrir quantos degraus terão que ser subidos
-    printf("%0.2f\n", quantosDegraus);
+    printf("quatidade de degraus: %0.2f\n", quantosDegraus);
 
     return 0;
 }
