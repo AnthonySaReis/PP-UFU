@@ -5,8 +5,9 @@
 
 int main(){
     float nota1, nota2, nota3, nota4, media;
+   	printf("Entre com os valore separados por espacos: ");
     scanf("%f %f %f %f", &nota1, &nota2, &nota3, &nota4);
     media = (nota1 + nota2 + nota3 + nota4) / 4;
-    printf("%0.2f", media);
+    printf("a media vale %0.2f", media);
     return 0;
 }
