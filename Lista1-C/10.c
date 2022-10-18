@@ -9,6 +9,7 @@ em m/s.
 
 int main( ) {
 	float k,m;
+	printf("Entre com o valor em km/h: ");
 	scanf("%f", &k);
 	m = k/3.6;
 	printf("Em metros/s vale: %0.2f", m);
