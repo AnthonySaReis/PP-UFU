@@ -8,8 +8,9 @@ cilindro circular é calculado por meio da seguinte fórmula: V = PI * raio^2 * 
 int main(){
 
     float altura, raio, V, PI = 3.141592;
+   	printf("Entre com os valores da altura e raio separados por espaco: ");
     scanf("%f %f", &altura, &raio);
     V = PI * (raio*raio) * altura;
-    printf("%0.2f", V);
+    printf("o volume vale %0.2f", V);
     return 0;
 }
