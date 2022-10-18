@@ -7,6 +7,7 @@
 int main(){
 
     int numero, milhar, centena, dezena, unidade;
+	printf("Entre com o valor inteiro de 4 digitos: ");
     scanf("%d", &numero);
     //verificação de numero para evitar erros
     while(numero<1000 || numero > 9999){
