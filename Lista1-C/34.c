@@ -8,8 +8,9 @@
 int main(){
 
     float raio, area, PI=3.141592;
+   	printf("Entre com o valor do raio: ");
     scanf("%f", &raio);
     area = PI * (raio*raio); //area do círculo = PI*raio2
-    printf("%0.2f", area);
+    printf("a area ficou: %0.2f", area);
     return 0;
 }
