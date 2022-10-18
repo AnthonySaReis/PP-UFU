@@ -7,8 +7,9 @@ em vista que o desconto foi de 12%.
 int main(){
 
     float valor, total;
+   	printf("Entre com o valor: ");
     scanf("%f", &valor);
     total = valor * 0.88; // ou total = valor - (valor*0.12);
-    printf("%0.2f", total);
+    printf("valor com desconto %0.2f", total);
     return 0;
 }
