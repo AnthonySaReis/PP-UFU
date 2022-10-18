@@ -10,8 +10,9 @@ int main(){
 
     int a, b;
     float hipotenusa;
+   	printf("Entre com os valores dos catetos separados por espaco: ");
     scanf("%d %d", &a, &b);
     hipotenusa = sqrt((a*a)+(b*b)); //sqrt(raiz quadrada) função da biblioteca math.h
-    printf("%0.2f", hipotenusa);
+    printf("a hipotenusa vale %0.2f", hipotenusa);
     return 0;
 }
