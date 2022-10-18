@@ -9,6 +9,7 @@ G = R*180/?, sendo G o ângulo em graus e R em radianos e ? = 3.141592.
 int main( ) {
 	float g,r;
 	float pi = 3.141592; 
+	printf("Entre com o valor em radianos: ");
 	scanf("%f", &r);
 	g = (r*180)/pi;
 	printf("Em graus vale: %0.2f", g);
