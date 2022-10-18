@@ -6,7 +6,8 @@
 int main(){
 
     int lado;
+   	printf("Entre com o valor do lado: ");
     scanf("%d", &lado);
-    printf("%d", (lado*lado)); //l*l = area do quadrado
+    printf("a area ficou %d", (lado*lado)); //l*l = area do quadrado
     return 0;
 }
