@@ -6,10 +6,11 @@
 int main(){
 
     int num, antecessor, sucessor;
+   	printf("Entre com o valor: ");
     scanf("%d", &num);
     antecessor = num-1;
     sucessor = num+1;
-    printf("%d e %d", antecessor, sucessor);
+    printf("antecessor: %d \n sucesor: %d", antecessor, sucessor);
 
     return 0;
 }
