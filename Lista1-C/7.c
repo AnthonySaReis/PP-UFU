@@ -9,6 +9,7 @@ temperatura em Fahrenheit.
 
 int main( ) {
 	float c,f;
+	printf("Entre com o valor em fahrenheit: ");
 	scanf("%f", &f);
 	c = 5*(f-32)/9;
 	printf("Em celsius vale: %0.2f", c);
