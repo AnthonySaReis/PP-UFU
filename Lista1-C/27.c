@@ -9,6 +9,7 @@ hectares.
 int main(){
     
     float h,m;
+	printf("Entre com o valor em hectares: ");
 	scanf("%f", &h);
 	m = h*10000;
 	printf("Em metros quadrados vale: %0.2f", m);
