@@ -7,6 +7,7 @@ dobro.
 int main(){
 
     int num, soma;
+   	printf("Entre com o valor inteiro: ");
     scanf("%d", &num);
     soma = ((num*3)+1)+((num*2)-1);
     printf("%d", soma);
