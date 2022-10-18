@@ -10,6 +10,7 @@ cúbicos.
 
 int main( ) {
 	float m,l;
+	printf("Entre com o valor em litros: ");
 	scanf("%f", &l);
 	m = l/1000;
 	printf("Em metros cubicos vale: %0.2f", m);
