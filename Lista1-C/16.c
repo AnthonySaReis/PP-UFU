@@ -9,6 +9,7 @@ em polegadas.
 
 int main( ) {
 	float p,c;
+	printf("Entre com o valor em polegadas: ");
 	scanf("%f", &p);
 	c = p*2.54;
 	printf("Em centimetros vale: %0.2f", c);
