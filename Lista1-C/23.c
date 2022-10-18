@@ -7,6 +7,7 @@ conversão é: J = M/0.91, sendo J o comprimento em jardas e M o comprimento em 
 int main(){
     
     float j,m;
+	printf("Entre com o valor em metros: ");
 	scanf("%f", &m);
 	j = m/0.91;
 	printf("Em jardas vale: %0.2f", j);
