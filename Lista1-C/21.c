@@ -8,6 +8,7 @@ int main(){
     
     float k,l;
 	scanf("%f", &l);
+	printf("Entre com o valor em libras: ");
 	k = l*0.45;
 	printf("Em quilogramas vale: %0.2f", k);
 
