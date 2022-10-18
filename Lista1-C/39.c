@@ -9,7 +9,7 @@ Calcule e imprima a quantia ganha por cada um dos ganhadores.
 #include <stdio.h>
 
 int main(){
-    float total = 780.000, primeiro, segundo, terceiro;
+    float total = 780000, primeiro, segundo, terceiro;
     primeiro = total * 0.46;
     segundo = total * 0.32;
     terceiro = total * 0.22;
