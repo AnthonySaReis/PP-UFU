@@ -10,6 +10,6 @@ int main(){
    	printf("Entre com o valor inteiro: ");
     scanf("%d", &num);
     soma = ((num*3)+1)+((num*2)-1);
-    printf("%d", soma);
+    printf("o resultado fica %d", soma);
     return 0;
 }
