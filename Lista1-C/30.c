@@ -7,9 +7,10 @@ dólares.
 int main(){
 
     float real, cotacao, convertido;
+   	printf("Entre com os valores (reais e cotacao) separados por espaco: ");
     scanf("%f %f", &real, &cotacao);
     convertido = real / cotacao;
-    printf("%0.2f", convertido);
+    printf("o valor convertido fica: %0.2f", convertido);
 
     return 0;
 }
