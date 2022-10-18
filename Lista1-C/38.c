@@ -7,8 +7,9 @@ recebeu um aumento de 25%.
 
 int main(){
     float salario, aumento;
+   	printf("Entre com o valor do salario: ");
     scanf("%f", &salario);
     aumento = salario * 1.25; //1.25 = 125% de aumento
-    printf("%0.2f", aumento); 
+    printf("valor com aumento %0.2f", aumento); 
     return 0;
 }
