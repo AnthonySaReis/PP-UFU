@@ -7,7 +7,8 @@ ASCII para resolver o problema.
 int main(){
 
     char letra;
+	printf("Entre com a letra maiuscula: ");
     scanf("%c", &letra);
-    printf("%c", letra + 32); //somar ou subtrais 32 muda entre maiúscula e minúscula (tabela ASCII)
+    printf("letra minuscula: %c", letra + 32); //somar ou subtrais 32 muda entre maiúscula e minúscula (tabela ASCII)
     return 0;
 }
