@@ -8,8 +8,9 @@ int main(){
 
     int idade, anoNascimento;
     int anoAtual = 2022; 
+	printf("Entre com o valor do ano de nascimento: ");
     scanf("%d", &anoNascimento);
     idade = anoAtual-anoNascimento;
-    printf("%d", idade);
+    printf("idade: %d", idade);
     return 0;
 }
