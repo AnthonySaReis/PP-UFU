@@ -8,9 +8,10 @@ sabendo-se que são descontados 8% para imposto de renda.
 
 int main(){
     float valor = 30, dia, total;
+   	printf("Entre com os dias trabalhados: ");
     scanf("%f", &dia);
     total = (valor*dia)*0.92; //sabendo que são descontados 8% para imposto de renda.
-    printf("%0.2f", total);
+    printf("valor a receber %0.2f", total);
 
     return 0;
 }
