@@ -6,6 +6,7 @@ valores lidos.
 
 int main(){
     int num1, num2, num3, soma;
+   	printf("Entre com os valores separados por espacos: ");
     scanf("%d %d %d", &num1, &num2, &num3);
     soma = (num1 * num1) + (num2 * num2) + (num3 * num3);
     printf("%d", soma);
