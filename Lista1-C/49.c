@@ -11,10 +11,12 @@ int main(){
     int horaInicial, minInicial, segInicial, horaFinal, minFinal, segFinal, durSegundos;
     printf("Entre com horas na primeira linha, minutos na segunda, segundos na terceira e a duracao em segundos na ultima: \n");
     scanf("%d\n%d\n%d\n %d", &horaInicial, &minInicial, &segInicial, &durSegundos);
-
+    
+    //caso so haja alteração nos segundos
     segFinal = segInicial + durSegundos;
     minFinal= minInicial;
     horaFinal = horaInicial;
+    
     //controle de tempo para situações em que há mais de um minuto ou mais de uma hora na duração
     while(segFinal>59){
         minFinal++;
