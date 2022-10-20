@@ -14,6 +14,7 @@ int main(){
 
     segFinal = segInicial + durSegundos;
     minFinal= minInicial;
+    horaFinal = horaInicial;
     //controle de tempo para situações em que há mais de um minuto ou mais de uma hora na duração
     while(segFinal>59){
         minFinal++;
