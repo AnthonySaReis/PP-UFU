@@ -9,12 +9,12 @@ int main(){
     char sexo;
     printf("Entre com a altura: ");
     scanf("%f", &altura);
-    printf("Entre com o sexo (m pra Homem ou h pra Mulher): ");
+    printf("Entre com o sexo (h pra Homem ou m pra Mulher): ");
     scanf(" %c", &sexo);
-    if(sexo == 'm' || sexo == 'M'){
+    if(sexo == 'h' || sexo == 'H'){
         pesoIdeal = (72.7 * altura) - 58.0;
         printf("O peso ideal e: %0.2f", pesoIdeal);
-    }else if(sexo == 'f' || sexo == 'F'){
+    }else if(sexo == 'h' || sexo == 'H'){
         pesoIdeal = (62.1 * altura) - 44.7;
         printf("O peso ideal e: %0.2f", pesoIdeal);
     }else{
